@@ -21,3 +21,15 @@ Build for production:
 ```bash
 npm run build
 ```
+
+## Images
+
+The Luma cover image is imported at `public/images/gloss-git-logo.jpg`.
+
+To show the user-provided event photos, save them here:
+
+```text
+public/images/rooftop-group.jpg
+public/images/workshop-speakers.jpg
+public/images/dessert-table.jpg
+```
