@@ -625,10 +625,16 @@ h3 {
   margin-bottom: 22px;
 }
 
+.event-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 14px 20px;
+  margin-top: 12px;
+}
+
 .event-panel a {
   display: inline-flex;
   width: fit-content;
-  margin-top: 12px;
   color: var(--raspberry);
   font-weight: 900;
   border-bottom: 1px solid currentColor;

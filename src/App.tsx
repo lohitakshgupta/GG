@@ -5,14 +5,16 @@ const links = {
     "https://docs.google.com/forms/d/e/1FAIpQLScGM-v_mSg5SoTrNBwWrpXpF_W6tJH9nIqA9L_0vlGhhOxyKw/viewform",
   instagram: "https://www.instagram.com/glossandgit/",
   linkedin: "https://www.linkedin.com/company/glossandgit/",
+  linkedinEvent:
+    "https://www.linkedin.com/posts/anjali-viramgama_adobeambassadors-ugcPost-7451799460017311744-GVD9",
   luma: "https://luma.com/ioqmv0zu",
 };
 
 const proofPoints = [
   { value: "400+", label: "applications for a room built with intention" },
   { value: "75", label: "women at the rooftop launch" },
-  { value: "70+", label: "builders at the next IRL gathering" },
-  { value: "5", label: "guests flew in to be there" },
+  { value: "70+", label: "women at the second Seattle event" },
+  { value: "5", label: "guests flew in from Houston, the Bay, and Canada" },
 ];
 
 const photoCards = [
@@ -40,9 +42,9 @@ const photoCards = [
 ];
 
 const eventNotes = [
-  "Come polished. Come curious. Come ready to meet the women you will text after the event.",
-  "A room for engineers, AI builders, founders, creators, PMs, leaders, and career switchers.",
-  "The vibe is equal parts LinkedIn strategy session, rooftop soiree, and group chat magic.",
+  "VPs, directors, founders, and first-year engineers swap the kind of notes you cannot get from a webinar.",
+  "LinkedIn brand-building gets tactical with speakers, examples, and room-wide career honesty.",
+  "The social hour leans Bridgerton: tea, pastries, soft florals, and conversations that run long.",
 ];
 
 const hostCards = [
@@ -168,13 +170,19 @@ function App() {
             <p className="panel-kicker">Event energy</p>
             <h2>Soft visuals. Serious momentum.</h2>
             <p>
-              Gloss and Git blends tactical programming with social spaces that
-              feel like a celebration: polished dress codes, memorable bites,
-              thoughtful photography, and a room curated for generous connection.
+              The recent Adobe-supported Seattle gathering paired a LinkedIn
+              branding workshop with a Bridgerton-inspired social. It sold out
+              again, drew women flying in from multiple regions, and set the
+              stage for an AI-focused May event.
             </p>
-            <a href={links.luma} target="_blank" rel="noreferrer">
-              View the past Luma event
-            </a>
+            <div className="event-links">
+              <a href={links.linkedinEvent} target="_blank" rel="noreferrer">
+                Read Anjali's recap
+              </a>
+              <a href={links.luma} target="_blank" rel="noreferrer">
+                View the past Luma event
+              </a>
+            </div>
           </div>
           <div className="note-stack">
             {eventNotes.map((note, index) => (
