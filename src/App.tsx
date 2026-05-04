@@ -108,7 +108,7 @@ function App() {
               rooms that make ambition feel beautiful.
             </p>
             <div className="hero-actions" aria-label="Primary actions">
-              <a className="button button-primary" href={links.earlyAccess} target="_blank" rel="noreferrer">
+              <a className="button button-primary" href={links.earlyAccess}>
                 Get early access
               </a>
               <a className="button button-secondary" href={links.instagram} target="_blank" rel="noreferrer">
@@ -220,7 +220,7 @@ function App() {
             and community moments for women in tech and AI.
           </p>
           <div className="hero-actions">
-            <a className="button button-primary" href={links.earlyAccess} target="_blank" rel="noreferrer">
+            <a className="button button-primary" href={links.earlyAccess}>
               Get early access
             </a>
             <a className="button button-secondary" href={links.linkedin} target="_blank" rel="noreferrer">
